@@ -1,0 +1,21 @@
+-- DROP TABLE IF EXISTS MATERIAL;
+-- DROP TABLE IF EXISTS PRODUCT;
+-- DROP TABLE IF EXISTS ARTICLE;
+-- CREATE TABLE IF NOT EXISTS ARTICLE (
+--     article_id varchar(20) primary key,
+--     name varchar(50),
+--     stock varchar(10)
+-- );
+-- CREATE TABLE IF NOT EXISTS PRODUCT (
+--    product_id int primary key,
+--    name varchar(20),
+--    price varchar(50)
+-- );
+--
+-- CREATE TABLE IF NOT EXISTS MATERIAL (
+--     material_id int primary key,
+--     article_id varchar(20),
+--     amount varchar(20),
+--     product_id int,
+--     FOREIGN KEY(product_id) REFERENCES PRODUCT(product_id)
+-- )
